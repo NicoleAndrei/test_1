@@ -1,0 +1,111 @@
+.sidenav {
+  height: 500px; /* Full-height: remove this if you want "auto" height */
+  width: 270px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 73px; /* Stay at the top */
+  left: 0px;
+  background-color:  #eaeaea; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 50px;
+}
+
+/* The navigation menu links */
+.sidenav .upper a {
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: -30px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  padding: 0px 0px 0px 25px;
+}
+.sidenav .lower a {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color:  #36454f;
+  display: block;
+  padding: 0px 0px 0px 40px;
+}
+.sidenav .lower p {
+  padding: 0px 0px 0px 40px;
+  color:  #36454f;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #00AEEF;
+}
+a .links .fa
+{
+  line-height:3px;
+  font-size: 25px;
+  float: left;
+  padding: 10px 15px;
+
+}
+img.profilepic{
+  margin-top: -25px;
+  margin-bottom: -20px;
+  padding: 0px 10px 0px 25px;
+  float: left;
+}
+#profile a
+{
+  color: #00AEEF;
+  font-size: 13px;
+  margin-top: 0;
+}
+/*para sa sidebar*/
+.rightbar {
+  height: 500px; /* Full-height: remove this if you want "auto" height */
+  width: 280px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 73px; /* Stay at the top */
+  right: 0px;
+  background-color: #eaeaea;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+.rightbar .upper .parag p {
+  font-size: 18px;
+  margin-top: -20px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color:  #36454f;
+  display: block;
+  padding: 0px 50px 0px 50px;
+}
+.rightbar .upper .people p {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color:  #36454f;
+  display: block;
+  padding: 0px 50px 10px 20px;
+}
+.rightbar .upper .peoplefollow .fa {
+    line-height:30px;
+    font-size: 50px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #36454f;
+}
+.rightbar .upper .peoplefollow p
+ {
+  font-size: 15px;
+  color: #36454f;
+}
+.rightbar .upper .peoplefollow a {
+  color: #00AEEF;
+  font-size: 13px;
+  margin-top: -10px;
+  padding: 0px 50px 0 100px;
+}
+
+/*end of elements that are needed to be put in all html files */
